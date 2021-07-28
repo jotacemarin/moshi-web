@@ -16,7 +16,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Mosshi web, es un comercio electronico en construccion'
+        content: 'Mosshi web, work in progress'
       },
       // Twitter
       // Test on: https://cards-dev.twitter.com/validator
@@ -34,12 +34,12 @@ export default {
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'mosshi-web'
+        content: 'Mosshi web'
       },
       {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content: 'Moshi web, es un comercio electronico en construccion'
+        content: 'Mosshi web, work in progress'
       },
       {
         hid: 'twitter:image',
@@ -58,12 +58,12 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'Mosshi web ecommerce'
+        content: 'Mosshi web'
       },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'Mosshi web, es un comercio electronico en construccion'
+        content: 'Mosshi web, work in progress'
       },
       {
         hid: 'og:image',
@@ -130,9 +130,9 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      name: 'moshi-web',
-      short_name: 'moshi-web',
-      description: 'Moshi web, es un comercio electronico en construccion',
+      name: 'mosshi-web',
+      short_name: 'mosshi-web',
+      description: 'Mosshi web, work in progress',
       theme_color: '#ffffff',
       dir: 'ltr',
       lang: 'es'
