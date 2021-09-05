@@ -141,5 +141,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  env: {
+    moshiApi: process.env.MOSHI_API,
+    mercadolibreUrl: process.env.MERCADOLIBRE_URL,
+    mercadolibreClientId: process.env.MERCADOLIBRE_CLIENT_ID
   }
 }
